@@ -15,11 +15,6 @@ body{
 }
 
 
-.standing, .ready, .cool, .throwing {
-	height: 494px;
-	background-position-x: -135px;
-}
-
 
 .throwing {
 	width: 659px;
@@ -50,6 +45,13 @@ body{
 .throwing{
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
+
+
+.standing, .ready, .cool, .throwing {
+	height: 494px;
+	background-position: -135px 0px; 
+}
+
 
 .hadouken{
 	position: absolute;
